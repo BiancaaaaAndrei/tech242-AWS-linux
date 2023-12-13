@@ -41,7 +41,7 @@ Reviewed instance configuration. If everything looks good, click the "Launch" bu
 ## Step 11: Git Bash
 1. Connected the VM 
 2. Logged in
-3. To execute Linux commands on the VM, refer to the log [LINUX Commands](LINUXcommands.md)
+3. To execute Linux commands on the VM, refer to the log [Linux Commands](LINUXcommands.md)
 4. Exit the VM when done
 
 ## Step 12: Stop the VM when on break or end of the workday
@@ -49,4 +49,3 @@ Reviewed instance configuration. If everything looks good, click the "Launch" bu
 2. Go on instances
 3. Select my VM tech242-bianca-first-vm
 4. Click on instance state and press the stop instance.
-
