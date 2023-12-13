@@ -1,0 +1,30 @@
+# Permissions
+
+## File Ownership and Access Control
+
+### Owner Privileges:
+Being the owner of a file comes with special privileges, though it doesn't automatically confer complete permissions. The owner has the authority to manage and adjust file permissions. The specific access granted to the owner depends on the owner's configuration, ranging from read-only to read and write access, and even full read, write, and execute access.
+
+### User Entity Permissions:
+When permissions are assigned to the User entity, they define access rights specifically for the file owner. These permissions are symbolized by the characters `r` (Read), `w` (Write), and `x` (Execute). For example, assigning `rwx` means granting the owner read, write, and execute permissions.
+
+### Group Entity Permissions:
+Permissions allocated to the Group entity apply to a group to which the owner belongs. Group permissions also use the characters `r` (Read), `w` (Write), and `x` (Execute). For instance, assigning `r-x` bestows read and execute permissions upon group members.
+
+### Other Entity Permissions:
+When permissions are extended to the Other entity, they determine access for individuals neither the owner nor members of the group. Other permissions also utilize `r` (Read), `w` (Write), and `x` (Execute). Assigning `r--` means providing others with read-only access, while `rwx` would grant read, write, and execute permissions.
+
+## Exercise: 
+
+- Owner permissions: Read-only
+- Group permissions: Read and write
+- Other permissions: Read, write, and execute
+
+As the user who is the owner of the file, you will have the following permissions:
+
+- Read permission: Yes, allows to view the contents of the file.
+- Write permission: No, cannot make changes or modify the file.
+- Execute permission: No, means you cannot run the file as a script or execute it as a program.
+
+### Explanation:
+In summary, as the owner, can only have read-only access to the file, being able to view its contents but preventing the owner from making changes or executing.
