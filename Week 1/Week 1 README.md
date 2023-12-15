@@ -4,6 +4,7 @@
   - [Day 1: Intro into Cloud \& AWS](#day-1-intro-into-cloud--aws)
   - [Day 2: First Virtual Machine \& Linux Intro](#day-2-first-virtual-machine--linux-intro)
   - [Day 3: Linux permissions, managing processes, environment variable, making/running scripts](#day-3-linux-permissions-managing-processes-environment-variable-makingrunning-scripts)
+  - [Day 4 \& Day 5](#day-4--day-5)
 
 
 ## Day 1: Intro into Cloud & AWS
@@ -41,3 +42,6 @@
 - [Making/Running scripts](Day3-resources/Creating_RunningScript.md)
     - Creating and running scripts in Linux involves writing executable text files containing a series of commands or programming instructions. 
 
+## Day 4 & Day 5
+- [The process of deploying an app](<Day 5/process_of_deploying_app.md>)
+- 
