@@ -1,13 +1,13 @@
 # tech242-AWS-linux
 
 - [tech242-AWS-linux](#tech242-aws-linux)
-  - [Day 1: Intro into Cloud \& AWS](#day-1-intro-into-cloud--aws)
-  - [Day 2: First Virtual Machine \& Linux Intro](#day-2-first-virtual-machine--linux-intro)
-  - [Day 3: Linux permissions, managing processes, environment variable, making/running scripts](#day-3-linux-permissions-managing-processes-environment-variable-makingrunning-scripts)
-  - [Day 4 \& Day 5](#day-4--day-5)
+  - [Intro into Cloud \& AWS](#intro-into-cloud--aws)
+  - [First Virtual Machine \& Linux Intro](#first-virtual-machine--linux-intro)
+  - [Linux permissions, managing processes, environment variable, making/running scripts](#linux-permissions-managing-processes-environment-variable-makingrunning-scripts)
+  - [Deploying an application](#deploying-an-application)
 
 
-## Day 1: Intro into Cloud & AWS
+## Intro into Cloud & AWS
 
 - What is cloud computing?
      - Cloud computing is a technology that lets you access and use computing resources over the internet, like storage and processing power, without needing physical hardware. 
@@ -18,15 +18,15 @@
      - A set of online services and tools that can be used to build and run applications without having to invest in physical servers.
      - For a more detailed explanation, please go to [AWS Basics](Day1-resources/aws-basics.md)
 
-## Day 2: First Virtual Machine & Linux Intro
+## First Virtual Machine & Linux Intro
 
-- [How to create a Virtual Machine on AWS?](Day2-resources.md/create-vm.md)
-- [Useful LINUX Commands for beginners](Day2-resources.md/LINUXcommands.md)
-- [Research into managing file ownership](Day2-resources.md/file-ownership.md)
+- [Creating the first virtual machine](Day2-resources/create-vm.md)
+- [Useful LINUX Commands for beginners](Day2-resources/LINUXcommands.md)
+- [Research into managing file ownership](Day2-resources/file-ownership.md)
 
-## Day 3: Linux permissions, managing processes, environment variable, making/running scripts
+## Linux permissions, managing processes, environment variable, making/running scripts
 
-- [Linux permissions](Day3-resources/Research_permissions)
+- [Linux commands](Day2-resources/LINUXcommands.md)
     - Linux permissions dictate the level of access and control users, groups, and others have over files and directories. 
     - Each permission set includes read, write, and execute capabilities, enabling precise control over file interactions and executions.
 
@@ -42,6 +42,6 @@
 - [Making/Running scripts](Day3-resources/Creating_RunningScript.md)
     - Creating and running scripts in Linux involves writing executable text files containing a series of commands or programming instructions. 
 
-## Day 4 & Day 5
-- [The process of deploying an app](<Day 5/process_of_deploying_app.md>)
-- 
+## Deploying an application
+- [The processes of deploying an application](<Day 5/process_of_deploying.md/process_of_deploying_main.md>)
+    - Deploying an application involves the systematic set of tasks to make software accessible and operational. From preparing the environment to ensuring seamless execution, deployment encompasses steps like code integration, configuration, and, often, automation. This process ensures a smooth transition from development to production, enabling users to interact with the application reliably.
