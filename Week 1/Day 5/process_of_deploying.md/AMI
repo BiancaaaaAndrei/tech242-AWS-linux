@@ -1,0 +1,22 @@
+## Automated deployment with AMI
+
+## Step 1
+Created a new VM or used an existing one.
+
+## Step 2
+
+![Create AMI](<../../readme-images/create ami.png>)
+
+## Step 3
+Give a concrete name for the instance and make sure that every istance name WILL ALWAYS end with "-ami", such as:
+
+![Name AMI](<../../readme-images/Name ami.png>)
+
+## Step 4
+Create or use an existent security group
+
+## Step 5
+
+Make sure that the Tag is "Name" and the Value is the same as the instance name!
+
+![Tag and Value](<../../readme-images/tag ami.png>)

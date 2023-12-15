@@ -1,8 +1,10 @@
-# Process of deploying an app
-
-Brief project description.
-
 ## I. Manual Deployment
+
+- [I. Manual Deployment](#i-manual-deployment)
+  - [Script: Created the draft of the automation process in the prev-app.sh file](#script-created-the-draft-of-the-automation-process-in-the-prev-appsh-file)
+- [Step 2:](#step-2)
+- [Step 3](#step-3)
+- [Step 4](#step-4)
 
 ### Script: Created the draft of the automation process in the prev-app.sh file
 The code will update and upgrade relevant packages, install Maven, JDK 17 and Git, clone the relevant repo and run the application.
@@ -73,40 +75,3 @@ git clone https://github.com/BiancaaaaAndrei/tech242-jsonvoorhees-app.git
 cd tech242-jsonvoorhees-app/app/springapi
 mvn spring-boot:start
 ```
-
-## II Automated deloyment with User Data
-
-## Step 1
-Created a new Virtual Machine following the standard procedure. The only diference was that, in the "Advanced settings," it became necessary to paste our functional automation script into the User Data box.
-
-## Step 2
-When the status of our new machine is "running" then we are ready to copy the public IP and paste it in the address bar followed by :5000, like this: 
-
-```
-publicip:5000
-```
-
-## III Automated deployment with AMI
-
-## Step 1
-Created a new VM or used our automated Virtual Machine with User Data. 
-
-## Step 2
-
-![Create AMI](<../../readme-images/create ami.png>)
-
-## Step 3
-Give a concrete name for the instance and make sure that every istance name WILL ALWAYS end with "-ami", such as:
-
-![Name AMI](<../../readme-images/Name ami.png>)
-
-## Step 4
-Create or use an existent security group
-
-## Step 5
-
-Make sure that the Tag is "Name" and the Value is the same as the instance name!
-
-![Tag and Value](<../../readme-images/tag ami.png>)
-
-
