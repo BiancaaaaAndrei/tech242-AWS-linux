@@ -5,6 +5,7 @@
   - [First Virtual Machine \& Linux Intro](#first-virtual-machine--linux-intro)
   - [Linux permissions, managing processes, environment variable, making/running scripts](#linux-permissions-managing-processes-environment-variable-makingrunning-scripts)
   - [Deploying an application](#deploying-an-application)
+  - [Setting up Apache Web Server and Configuring Reverse Proxy](#setting-up-apache-web-server-and-configuring-reverse-proxy)
 
 
 ## Intro into Cloud & AWS
@@ -45,3 +46,6 @@
 ## Deploying an application
 - [The processes of deploying an application](<Day 5/process_of_deploying.md/process_of_deploying_main.md>)
     - Deploying an application involves the systematic set of tasks to make software accessible and operational. From preparing the environment to ensuring seamless execution, deployment encompasses steps like code integration, configuration, and, often, automation. This process ensures a smooth transition from development to production, enabling users to interact with the application reliably.
+
+## Setting up Apache Web Server and Configuring Reverse Proxy
+[Apache and Reverse Proxy](Day5.md)

@@ -1,0 +1,11 @@
+"C:\Users\bianc\OneDrive\Documents\app-code\app"
+
+scp -i "~/.ssh/tech242.pem" -r -P 22 "~/C:\Users\bianc\OneDrive\Documents\app-code\app" ubuntu@ec2-54-78-244-142.eu-west-1.compute.amazonaws.com
+
+
+
+ scp -i ~/.ssh/tech242.pem ~/Desktop/test.txt ubuntu@public-key:~
+
+"C:/Users/bianc/OneDrive/Documents/app-code/app"
+
+ scp -i "~/.ssh/tech242.pem" ~/OneDrive/Documents/app-code/app ubuntu@54.78.244.142:~
