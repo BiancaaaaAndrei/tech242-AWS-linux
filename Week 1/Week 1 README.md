@@ -6,6 +6,7 @@
   - [Linux permissions, managing processes, environment variable, making/running scripts](#linux-permissions-managing-processes-environment-variable-makingrunning-scripts)
   - [Deploying an application](#deploying-an-application)
   - [Setting up Apache Web Server and Configuring Reverse Proxy](#setting-up-apache-web-server-and-configuring-reverse-proxy)
+  - [AMI](#ami)
 
 
 ## Intro into Cloud & AWS
@@ -48,4 +49,7 @@
     - Deploying an application involves the systematic set of tasks to make software accessible and operational. From preparing the environment to ensuring seamless execution, deployment encompasses steps like code integration, configuration, and, often, automation. This process ensures a smooth transition from development to production, enabling users to interact with the application reliably.
 
 ## Setting up Apache Web Server and Configuring Reverse Proxy
-[Apache and Reverse Proxy](Day5.md)
+[Apache and Reverse Proxy](Day5-resources/Day5.md)
+
+## AMI
+[Create an AMI](Day5-resources/create_ami.md)
