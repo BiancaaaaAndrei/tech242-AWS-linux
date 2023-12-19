@@ -5,8 +5,9 @@
   - [First Virtual Machine \& Linux Intro](#first-virtual-machine--linux-intro)
   - [Linux permissions, managing processes, environment variable, making/running scripts](#linux-permissions-managing-processes-environment-variable-makingrunning-scripts)
   - [Deploying an application](#deploying-an-application)
-  - [Setting up Apache Web Server and Configuring Reverse Proxy](#setting-up-apache-web-server-and-configuring-reverse-proxy)
   - [AMI](#ami)
+  - [Setting up Apache Web Server and Configuring Reverse Proxy](#setting-up-apache-web-server-and-configuring-reverse-proxy)
+  - [Reversed Proxy - Second method](#reversed-proxy---second-method)
 
 
 ## Intro into Cloud & AWS
@@ -48,8 +49,11 @@
 - [The processes of deploying an application](<Day 5/process_of_deploying.md/process_of_deploying_main.md>)
     - Deploying an application involves the systematic set of tasks to make software accessible and operational. From preparing the environment to ensuring seamless execution, deployment encompasses steps like code integration, configuration, and, often, automation. This process ensures a smooth transition from development to production, enabling users to interact with the application reliably.
 
+## AMI
+[Create an AMI](Day5-resources/create_ami.md)
+
 ## Setting up Apache Web Server and Configuring Reverse Proxy
 [Apache and Reverse Proxy](Day5-resources/Day5.md)
 
-## AMI
-[Create an AMI](Day5-resources/create_ami.md)
+## Reversed Proxy - Second method
+[Reversed Proxy Version 2](<../Week 2/second_method_reversed_proxy.md>)
