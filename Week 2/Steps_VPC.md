@@ -76,4 +76,40 @@
 
 ![Security Group](<../readme-images/today!/create security group for ami instance.png>)
 
+1. SSH from My IP
+2. MYSQL/Aurora, 0.0.0.0/0 (Security Group)
+   
 ## Step 11. Create the API VM
+
+1. SSH from My IP
+2. HTTP from Anywhere
+
+- Needs the User Data. The user data I have used for this example:
+
+```
+
+#!/bin/bash
+ 
+DATABASE_IP= 
+ 
+echo "Setup environment variables for app..."
+echo "Step 1: DB_HOST..."
+export DB_HOST=jdbc:mysql://$DATABASE_IP:3306/world
+echo "Step 1: Done!"
+# Security warning: Should not be hard coding database credentials
+echo "Step 2: DB_USER..."
+export DB_USER=root
+echo "Step 2: Done!"
+echo "Step 3: DB_PASS..."
+export DB_PASS=root
+echo "Step 3: Done!"
+echo "Done!"
+echo ""
+ 
+echo "Run app in background..."
+cd repo/WorldProject
+# No need to do mvn package with AMI
+#sudo -E mvn package
+sudo -E mvn spring-boot:start
+
+```
