@@ -28,12 +28,11 @@
 ## First Virtual Machine & Linux Intro
 
 - [Creating the first virtual machine](<Week 1/Day2-resources/how-to-create-vm.md>)
-- [Useful LINUX Commands for beginners](<Week 1/Day2-resources/LINUXcommands-intro.md>)
 - [Research into managing file ownership](<Week 1/Day2-resources/file-ownership.md>)
 
 ## Linux permissions, managing processes, environment variable, making/running scripts
 
-- [Linux Basics](<Week 1/Day2-resources/LINUXcommands-intro.md>)
+- [LINUX basics](<Week 1/Day2-resources/LINUXcommands.md>)
     - Linux permissions dictate the level of access and control users, groups, and others have over files and directories. 
     - Each permission set includes read, write, and execute capabilities, enabling precise control over file interactions and executions.
 
