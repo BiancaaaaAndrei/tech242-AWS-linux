@@ -25,3 +25,5 @@
 
 ## How to Create a VPC
 [Steps on how to set up the VPC System](Steps_VPC.md)
+
+NB! When creating a custom VPC, this process might be different than Azure, especially with the Private Subnets.

@@ -172,3 +172,6 @@ echo ""
 
 
 
+
+
+security group can be assigned to a vm or a subnet
