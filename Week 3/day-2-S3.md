@@ -103,7 +103,7 @@ This will remove the bucket and all objects within it.
 
 ## Follow these steps to modify access permissions for the public
 
-### Step 1: Find your bucket and click on the link. Then click on the test.txt file to modify its' permissions
+### Step 1: Find your bucket in the S3 list and click on it. Then click on the PERMISSIONS section above to modify its' permissions
 
 ![Permissions](../readme-images/today/permissions.png)
 
@@ -112,7 +112,7 @@ Modify the access control
 
 ![Access](<../readme-images/today/access control - .png>)
 
-### Step 3. Select the object that you want to modify
+### Step 3. Select the object that you want to modify from your bucket
 This will modify individually each object so that we can have control which file should be prublic or private!
 
 [Alt text](<../readme-images/today/access step 2.png>)

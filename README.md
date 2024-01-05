@@ -1,19 +1,24 @@
-# tech242-AWS-linux
+# Cloud Computing week by week material
 
-- [tech242-AWS-linux](#tech242-aws-linux)
+- [Cloud Computing week by week material](#cloud-computing-week-by-week-material)
+- [Week 1](#week-1)
   - [Intro into Cloud \& AWS](#intro-into-cloud--aws)
   - [First Virtual Machine \& Linux Intro](#first-virtual-machine--linux-intro)
   - [Linux permissions, managing processes, environment variable, making/running scripts](#linux-permissions-managing-processes-environment-variable-makingrunning-scripts)
   - [Deploying an application](#deploying-an-application)
   - [Setting up Apache Web Server and Configuring Reverse Proxy](#setting-up-apache-web-server-and-configuring-reverse-proxy)
   - [AMI](#ami)
+- [Week 2](#week-2)
   - [JsonVoorheese Automated Script with Reverse Proxy](#jsonvoorheese-automated-script-with-reverse-proxy)
   - [Tier 2 Individual Project](#tier-2-individual-project)
   - [AWS VPC](#aws-vpc)
+- [Week 3](#week-3)
   - [Introduction to AWS S3](#introduction-to-aws-s3)
   - [Task: Write a Bash script to add a scary cat image to the JSONVoorhees app's home page](#task-write-a-bash-script-to-add-a-scary-cat-image-to-the-jsonvoorhees-apps-home-page)
+    - [Monitoring and alert management in AWS](#monitoring-and-alert-management-in-aws)
 
 
+# Week 1
 ## Intro into Cloud & AWS
 
 - What is cloud computing?
@@ -62,6 +67,9 @@
 - [Create an AMI](<Week 1/Day5-resources/create_ami.md>)
 - [AMI example script for the WorldProject](<Week 2/ami.md>)
 
+
+# Week 2
+
 ## JsonVoorheese Automated Script with Reverse Proxy
 - [JsonVoorheese Script](<Week 2/app_code_automation_script.md>)
   
@@ -73,11 +81,17 @@
 - [Introduction to AWS VPC's](<Week 2/AWS VPC's.md>)
 - [Steps to set up a VPC](<Week 2/Steps_VPC.md>)
 
+
+# Week 3
+
 ## Introduction to AWS S3
 - [Basics of AWS S3 and steps](<Week 3/s3.md>)
 
 ## Task: Write a Bash script to add a scary cat image to the JSONVoorhees app's home page
 - [Full explanation of the exercise requirements + full working scripts](<Week 3/day-2-task.md>)
+
+### Monitoring and alert management in AWS
+- [Monitoring & Alert Management](<Week 3/day 5-monitoring-alert-manag.md>)
 
 
 NB! Redundancy - having copies of the data in mutiple places!
