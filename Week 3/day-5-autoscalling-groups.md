@@ -4,10 +4,11 @@
 
 This documentation provides a detailed guide for setting up an Auto Scaling Group on AWS. The Auto Scaling Group dynamically adjusts the number of instances based on specified metrics to handle varying loads, ensuring high availability and efficient resource utilization.
 
-## Table of Contents
 
-1. [Step 1: Create a Launch Template](#step-1-create-a-launch-template)
-2. [Step 2: Create an Auto Scaling Group](#step-2-create-an-auto-scaling-group)
+## Tutorials
+
+1. [Step 1: Create a Launch Template](step-by-step-creating-lt.md)
+2. [Step 2: Create an Auto Scaling Group](step-by-step-creating-asg.md)
 
 ## Step 1: Create a Launch Template
 
@@ -63,11 +64,6 @@ This documentation provides a detailed guide for setting up an Auto Scaling Grou
 ### 2.8 Continuous Optimization
 
 - Periodically review and adjust configurations based on changing application requirements and usage patterns.
-
-
-## Tutorials:
-- 
-[Step by step creating a autoscalling group](step-by-ste-creating-asg.md)
 
 ## Conclusion
 
