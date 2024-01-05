@@ -75,9 +75,9 @@ The cloud computing market is dominated by major providers: AWS, Azure, and Goog
 
 ## Case Studies
 
-1. [Company A: Netflix](Case-Studies/case-a-netflix.md)
-2. [Company B: Coca-Cola](Case-Studies/case-b-cocacola.md)
-3. [Company C: GE Healthcare](Case-Studies/case-c-GEHealthcare.md)
+1. [Company A: Netflix](../Case-Studies/case-a-netflix.md)
+2. [Company B: Coca-Cola](../Case-Studies/case-b-cocacola.md)
+3. [Company C: GE Healthcare](../Case-Studies/case-c-GEHealthcare.md)
 
 ## How Does Cloud Computing Work as a Business Model?
 

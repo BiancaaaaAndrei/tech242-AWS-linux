@@ -15,7 +15,7 @@
 - [Week 3](#week-3)
   - [Introduction to AWS S3](#introduction-to-aws-s3)
   - [Task: Write a Bash script to add a scary cat image to the JSONVoorhees app's home page](#task-write-a-bash-script-to-add-a-scary-cat-image-to-the-jsonvoorhees-apps-home-page)
-    - [Monitoring and alert management in AWS](#monitoring-and-alert-management-in-aws)
+    - [Monitoring and alert management in AWS \& Auto-scalling groups](#monitoring-and-alert-management-in-aws--auto-scalling-groups)
 
 
 # Week 1
@@ -90,8 +90,9 @@
 ## Task: Write a Bash script to add a scary cat image to the JSONVoorhees app's home page
 - [Full explanation of the exercise requirements + full working scripts](<Week 3/day-2-task.md>)
 
-### Monitoring and alert management in AWS
+### Monitoring and alert management in AWS & Auto-scalling groups
 - [Monitoring & Alert Management](<Week 3/day 5-monitoring-alert-manag.md>)
+- [Auto-scalling groups](<Week 3/day-5-autoscalling-groups.md>)
 
 
 NB! Redundancy - having copies of the data in mutiple places!
