@@ -16,6 +16,9 @@
   - [Introduction to AWS S3](#introduction-to-aws-s3)
   - [Task: Write a Bash script to add a scary cat image to the JSONVoorhees app's home page](#task-write-a-bash-script-to-add-a-scary-cat-image-to-the-jsonvoorhees-apps-home-page)
     - [Monitoring and alert management in AWS \& Auto-scalling groups](#monitoring-and-alert-management-in-aws--auto-scalling-groups)
+    - [Alert Management](#alert-management)
+    - [Setup the SSH to push to GitHub](#setup-the-ssh-to-push-to-github)
+    - [CICD Research](#cicd-research)
 
 
 # Week 1
@@ -93,6 +96,15 @@
 ### Monitoring and alert management in AWS & Auto-scalling groups
 - [Monitoring & Alert Management](<Week 3/day 5-monitoring-alert-manag.md>)
 - [Auto-scalling groups](<Week 3/day-5-autoscalling-groups.md>)
+
+### Alert Management
+[How to create a CPU alert](<Week 4/create-alarm.md>)
+
+### Setup the SSH to push to GitHub
+[Ssh-Github](<Week 4/ssh-github.md>)
+
+### CICD Research
+[CICD](<Week 4/CICD.md>)
 
 
 NB! Redundancy - having copies of the data in mutiple places!
