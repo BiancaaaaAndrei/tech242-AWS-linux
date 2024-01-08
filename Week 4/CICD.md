@@ -11,7 +11,15 @@
 - Continuous Deployment automatically deploys code changes to production after passing tests.
 
 ## Difference between CD and CDE
-- No specific information provided. If referring to Continuous Deployment Environment (CDE), it could encompass tools and practices for automating the entire deployment process.
+- CD:
+  - CD is primarily concerned with the methodology and practices involved in delivering code changes reliably and efficiently.
+  - It embodies the principles of automation, testing, and structured release processes.
+
+- CDE:
+  - CDE expands the scope to include the entire ecosystem of tools, infrastructure, and components that work together to facilitate continuous deployment.
+  - It aims to create an environment where the CD process operates seamlessly, allowing for frequent and reliable deployment of software changes.
+  
+The takeaway: In simple terms, CD is the cooking process, and CDE is having the right kitchen setup to make that process easy and successful.
 
 ## What is Jenkins?
 - An open-source automation server.
@@ -45,3 +53,6 @@
 - A pipeline helps deploy code consistently and quickly.
 - It makes sure the code is good quality.
 - Saves time, helps catch issues early, and gets features to users faster.
+
+CICD Diagram:
+![Diagram](../readme-images/diagram.png)
