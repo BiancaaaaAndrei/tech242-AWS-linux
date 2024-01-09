@@ -21,7 +21,7 @@
   
 The takeaway: In simple terms, CD is the cooking process, and CDE is having the right kitchen setup to make that process easy and successful.
 
-CICD Diagram:
+- CICD Diagram:
 ![Diagram](../readme-images/diagram.png)
 
 ## What is Jenkins?
@@ -115,7 +115,7 @@ To deploy code to AWS with Jenkins:
 3. The EC2 instance must be running.
 4. The Jenkins pipeline should include scripts for deploying code to the EC2 instance.
 
-Jenkins Diagram:
+- Jenkins Diagram:
 ![Diagram](<../readme-images/jenkins diagram.png>)
 
 ## Conclusion
