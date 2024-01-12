@@ -146,3 +146,12 @@ Go on the tech242-jsonvoorhees-app repo> settings > deploy Keys > add deploy key
 ![step 7](<../readme-images/Jsonvh jobs/after testing if it runs, we do step 7.png>)
 
 ##### Then run Job 1 to make sure there's no issues
+
+## Create third job
+##### Copy the updated & tested code from Jenkins to the AWS EC2 instance with scp or rsync commands
+###### First I created the EC2 Instance needed for this exercise. Here are is the set-up on how it was created and how I found the CICR IP:
+![Alt text](<../readme-images/Task e/create EC2 instance 1.png>)
+![Alt text](<../readme-images/Task e/create ec2 instance 2.png>)
+![Alt text](<../readme-images/Task e/create EC2 instance 3.png>)
+
+- In order to find the correct CICR: Go on EC2 in AWS > find this server "tech254-ramon-for-trainees-setup-jenkins-server" > look for the "Subnet ID", copy the link and click on it > paste the link in the search bar > when you find the item, click on the subnet's link > copy it's IPv4 CIDR
