@@ -148,10 +148,57 @@ Go on the tech242-jsonvoorhees-app repo> settings > deploy Keys > add deploy key
 ##### Then run Job 1 to make sure there's no issues
 
 ## Create third job
-##### Copy the updated & tested code from Jenkins to the AWS EC2 instance with scp or rsync commands
-###### First I created the EC2 Instance needed for this exercise. Here are is the set-up on how it was created and how I found the CICR IP:
-![Alt text](<../readme-images/Task e/create EC2 instance 1.png>)
-![Alt text](<../readme-images/Task e/create ec2 instance 2.png>)
-![Alt text](<../readme-images/Task e/create EC2 instance 3.png>)
+##### Copy the updated & tested code from Jenkins to the AWS EC2 instance with scp or rsync commands:
+1. ##### First I created the EC2 Instance from the jsonvh app reverse proxy AMI with it's new security group (HTTP from Anywhere, ssh from Anywhere) and use the following user data:
+```
+#!/bin/bash
+cd /repo/springapi
+mvn spring-boot:start
+```
 
-- In order to find the correct CICR: Go on EC2 in AWS > find this server "tech254-ramon-for-trainees-setup-jenkins-server" > look for the "Subnet ID", copy the link and click on it > paste the link in the search bar > when you find the item, click on the subnet's link > copy it's IPv4 CIDR
+2. ##### Go on Jenkins and connect Job 3 with the .pem file, also ssh into the EC2 instance:
+![The pem file](<../readme-images/Jsonvh jobs/job 3/step 2.png>)
+![Alt text](<../readme-images/Jsonvh jobs/job 3/step 2 build.png>)
+```
+uname -a
+ssh -o StrictHostKeyChecking=no ubuntu@ec2-54-155-152-80.eu-west-1.compute.amazonaws.com
+
+```
+
+3. ##### Run the Job 3 and see if it works
+4. ##### Add Job 3 in the Build Other Projects Section in Job 2 configurations
+5. ##### Go back into the Job 3 configurations: Copy code from Jenkins to the AWS EC2 instance with scp; Jenkins will need to SSH into the EC2 instance to 'cd' into the 'springapi' folder, re-compile & re-run the app
+
+```
+ssh -o StrictHostKeyChecking=no ubuntu@ec2-54-155-152-80.eu-west-1.compute.amazonaws.com 'sudo chmod 777 -R /repo'
+scp -o StrictHostKeyChecking=no -r ../bianca-jsonvh-job1-ci-test/app/springapi ubuntu@ec2-54-155-152-80.eu-west-1.compute.amazonaws.com:/repo
+ssh -o StrictHostKeyChecking=no ubuntu@ec2-54-155-152-80.eu-west-1.compute.amazonaws.com 'cd /repo/springapi; mvn clean package spring-boot:start'
+
+```
+6. ##### In the bash terminal on the local machine, push changes into the home.html folder to update the time and then push the changes in the dev branch:
+
+```
+cd ~/Desktop/Sparta Projects/tech242-jsonvoorhees-app/app/springapi/src/main/resources/templates
+```
+```
+nano home.html
+```
+
+```
+git add .
+```
+
+```
+git commit -m "updated the time and date in the home.html file"
+```
+
+```
+git push origin dev
+
+```
+
+##### And now on Jenkins all jobs must start one by one. When the last job is done, check to see if the changes have appeared on the main page.
+
+![Alt text](<../readme-images/Jsonvh jobs/job 3/changes.png>)
+
+
