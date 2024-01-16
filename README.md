@@ -17,8 +17,12 @@
   - [Task: Write a Bash script to add a scary cat image to the JSONVoorhees app's home page](#task-write-a-bash-script-to-add-a-scary-cat-image-to-the-jsonvoorhees-apps-home-page)
     - [Monitoring and alert management in AWS \& Auto-scalling groups](#monitoring-and-alert-management-in-aws--auto-scalling-groups)
     - [Alert Management](#alert-management)
+- [Week 4](#week-4)
     - [Setup the SSH to push to GitHub](#setup-the-ssh-to-push-to-github)
     - [CICD Research](#cicd-research)
+    - [Jenkins basics and tasks](#jenkins-basics-and-tasks)
+- [Week 5](#week-5)
+    - [Horizontal scalling of EC2 Instances using Auto-Scaling Group with an Application Load Balancer](#horizontal-scalling-of-ec2-instances-using-auto-scaling-group-with-an-application-load-balancer)
 
 
 # Week 1
@@ -100,11 +104,23 @@
 ### Alert Management
 [How to create a CPU alert](<Week 4/create-alarm.md>)
 
+
+# Week 4
+
 ### Setup the SSH to push to GitHub
 [Ssh-Github](<Week 4/ssh-github.md>)
 
 ### CICD Research
 [CICD](<Week 4/CICD.md>)
+
+### Jenkins basics and tasks
+[Jenkins](<Week 4/Jenkins-task.md>)
+
+
+# Week 5
+
+### Horizontal scalling of EC2 Instances using Auto-Scaling Group with an Application Load Balancer
+[Udemy Task](<Week 5/udemy_horizontal-scalling_task.md>)
 
 
 NB! Redundancy - having copies of the data in mutiple places!
