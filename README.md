@@ -21,8 +21,9 @@
     - [Setup the SSH to push to GitHub](#setup-the-ssh-to-push-to-github)
     - [CICD Research](#cicd-research)
     - [Jenkins basics and tasks](#jenkins-basics-and-tasks)
-- [Week 5](#week-5)
+- [Week 5 - Udemy Courses and Tasks](#week-5---udemy-courses-and-tasks)
     - [Horizontal scalling of EC2 Instances using Auto-Scaling Group with an Application Load Balancer](#horizontal-scalling-of-ec2-instances-using-auto-scaling-group-with-an-application-load-balancer)
+    - [IAM](#iam)
 
 
 # Week 1
@@ -117,10 +118,15 @@
 [Jenkins](<Week 4/Jenkins-task.md>)
 
 
-# Week 5
+# Week 5 - Udemy Courses and Tasks
 
 ### Horizontal scalling of EC2 Instances using Auto-Scaling Group with an Application Load Balancer
-[Udemy Task](<Week 5/udemy_horizontal-scalling_task.md>)
+[Udemy](<Week 5/Udemy Horizontal Scaling Task/udemy_horizontal-scalling_task.md>)
+
+### IAM 
+- [IAM Users and Groups](<Week 5/Udemy/IAM/Users-and-Groups.md>)
+- [IAM Create Users in AWS](<Week 5/Udemy/IAM/Create-Users.md>)
+- [IAM Policies Inheritance and Structure](<Week 5/Udemy/IAM/Policies-Inheritance.md>)
 
 
 NB! Redundancy - having copies of the data in mutiple places!

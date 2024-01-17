@@ -20,11 +20,9 @@
 •	EC2, RDS Multi-AZ, CloudWatch, SNS
 
 ## All tasks with step by step explications:
-[Task 1](Task1_udemy_hotizontal-scalling-task.md)
-[Task 2](Task2_udemy-horizontal-scaling.md)
-[Task 3](Task3_udemy-horizontal-scaling.md)
-[Task 4](Task4_udemy-horizontal-scaling.md)
-[Task 5](Task5_udemy-horizaontal-scaling.md)
-
-
+- [Task 1](Task1_udemy_hotizontal-scalling-task.md)
+- [Task 2](Task2_udemy-horizontal-scaling.md)
+- [Task 3](Task3_udemy-horizontal-scaling.md)
+- [Task 4](Task4_udemy-horizontal-scaling.md)
+- [Task 5](Task5_udemy-horizaontal-scaling.md)
 
