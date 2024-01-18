@@ -35,3 +35,39 @@
   - **Resource** is a list of resources, to which the actions will be applied to.
 
 ![Alt text](<../../../readme-images/iam/poli structure.png>)
+
+
+## How to remove permissions from a user:
+### Continue to use 2 screens: one for the AWS with the root user logged in, the other with the IAM account logged in
+
+#### Start by:
+- First Screen with the root user: Go in to Users Tab > Click on your user
+- Second Screen with the IAM account: Search for the IAM console > Click on Users Tab
+- Go back to the First Screen and click on the Groups:
+![Alt text](../../../readme-images/iam/groups.png)
+- Click on the admin froup
+- Remove your user from the group
+![Alt text](<../../../readme-images/iam/remove permissions admin.png>)
+- To check go into the second screen and refresh the page:
+![Alt text](<../../../readme-images/iam/no acess.png>)
+
+
+## How to give permissions:
+- First Screen: Back to the IAM Dashboard > Users > Find your user > Add Permissions
+![Alt text](<../../../readme-images/iam/add permissions.png>)
+- Then allow the user to read anything from IAM:
+![Alt text](../../../readme-images/iam/policies.png)
+
+## How to give multiple policies to the same user for different groups:
+- First Screen: Go on the User Groups Tab > Create Group (I named it developers) > Give it a name > Add the users you want in this group > Attach any policy you want to it (In my example I attached "Alexa for businees) > Re-add the user to the admin group
+- Now my user has 3 group policies:
+![Alt text](<../../../readme-images/iam/3 group policies.png>)
+
+## How to create your own policy:
+- First Screen: IAM > Policies > Create Policy > Click on the JSON or Visual (depends which one you prefer, for this example I used the Visual) > Choose the IAM Service > Actions Allowed: ListUsers, GetUser
+- Click Next > Give it a name > Create Policy
+
+# NB!
+- ### The **AdministratorAccess** Policy has access to all policies available on AWS! 
+  - #### The JSON form of this policy which explains that we allow any action on any resources:
+  ![Json format](../../../readme-images/iam/json.png)
