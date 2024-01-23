@@ -1,9 +1,14 @@
 # AWS Snow Family Overview
 
-- **Purpose:**
-  - AWS Snow Family represents highly secure portable devices with two primary use cases within AWS: data migration and edge computing:
+- [AWS Snow Family Overview](#aws-snow-family-overview)
+  - [Data Migration Use Case](#data-migration-use-case)
+  - [Diagram](#diagram)
+    - [Data Migration Devices](#data-migration-devices)
+      - [Data Migration Process](#data-migration-process)
+  - [Edge Computing](#edge-computing)
+    - [Edge Computing Devices](#edge-computing-devices)
+  - [AWS OpsHub](#aws-opshub)
 
-![Snow Family](<../../readme-images/S3/snow family.jpeg>)
 
 ## Data Migration Use Case
 
