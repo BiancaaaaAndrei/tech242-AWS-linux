@@ -1,4 +1,9 @@
 # Amazon S3 Replication Overview
+- [Amazon S3 Replication Overview](#amazon-s3-replication-overview)
+- [Cross-Region Replication (CRR):](#cross-region-replication-crr)
+- [Same-Region Replication (SRR):](#same-region-replication-srr)
+- [Key Points:](#key-points)
+
 
 # Cross-Region Replication (CRR):
 1. Enable Versioning:
@@ -39,4 +44,3 @@
 - Replication happens behind the scenes, with changes replicated from source to destination.
 - IAM permissions are crucial for enabling S3 to perform replication.
 - Use cases include compliance, data availability, and replica
-

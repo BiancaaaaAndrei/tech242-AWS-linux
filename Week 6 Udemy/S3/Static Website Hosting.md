@@ -1,5 +1,11 @@
 # Hosting Static Websites on Amazon S3
 
+- [Hosting Static Websites on Amazon S3](#hosting-static-websites-on-amazon-s3)
+  - [URL Structure for S3 Website Endpoints](#url-structure-for-s3-website-endpoints)
+- [Enabling S3 Bucket for Website Hosting](#enabling-s3-bucket-for-website-hosting)
+  - [Example Result](#example-result)
+  - [Important Note](#important-note)
+
 Amazon S3 provides a straightforward way to host static websites, making them accessible on the internet. The website's URL depends on the AWS region where the S3 bucket is created.
 
 ## URL Structure for S3 Website Endpoints

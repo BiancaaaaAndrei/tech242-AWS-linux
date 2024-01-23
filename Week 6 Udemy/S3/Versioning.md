@@ -1,5 +1,17 @@
 # Amazon S3 Versioning
 
+- [Amazon S3 Versioning](#amazon-s3-versioning)
+  - [Benefits of Versioning](#benefits-of-versioning)
+  - [Best Practices](#best-practices)
+  - [Example Scenario](#example-scenario)
+- [Playing with S3 Versioning](#playing-with-s3-versioning)
+  - [Enabling Versioning:](#enabling-versioning)
+  - [Uploading an Updated File:](#uploading-an-updated-file)
+  - [Viewing Object Versions:](#viewing-object-versions)
+  - [Rolling Back to a Previous Version:](#rolling-back-to-a-previous-version)
+  - [Deleting Objects with Delete Markers:](#deleting-objects-with-delete-markers)
+  - [Restoring a Deleted Object:](#restoring-a-deleted-object)
+
 Amazon S3 supports versioning, allowing you to keep multiple versions of an object in a bucket. Here's an overview of versioning in Amazon S3:
 
 ## Benefits of Versioning
