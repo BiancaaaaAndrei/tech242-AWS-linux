@@ -1,5 +1,21 @@
 # S3 Storage Classes
 
+- [S3 Storage Classes](#s3-storage-classes)
+  - [1. Amazon S3 Standard - General Purpose](#1-amazon-s3-standard---general-purpose)
+  - [2. Amazon S3 Infrequent Access (S3 Standard-IA)](#2-amazon-s3-infrequent-access-s3-standard-ia)
+  - [3. Amazon S3 One Zone-Infrequent Access (S3 One Zone-IA)](#3-amazon-s3-one-zone-infrequent-access-s3-one-zone-ia)
+  - [4. Glacier Storage Classes](#4-glacier-storage-classes)
+    - [a. Amazon S3 Glacier Instant Retrieval](#a-amazon-s3-glacier-instant-retrieval)
+    - [b. Amazon S3 Glacier Flexible Retrieval](#b-amazon-s3-glacier-flexible-retrieval)
+    - [c. Amazon S3 Glacier Deep Archive](#c-amazon-s3-glacier-deep-archive)
+    - [5. Amazon S3 Intelligent-Tiering](#5-amazon-s3-intelligent-tiering)
+    - [Hands-On Storage Classes](#hands-on-storage-classes)
+    - [Setting Up a New Bucket](#setting-up-a-new-bucket)
+    - [Storage Classes Overview](#storage-classes-overview)
+    - [Modifying Storage Classes](#modifying-storage-classes)
+    - [Automation of Storage Class Transitions](#automation-of-storage-class-transitions)
+    - [Conclusion](#conclusion)
+
 ## 1. Amazon S3 Standard - General Purpose
 - Durability: 11 nines
 - Availability: 99.99%

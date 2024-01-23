@@ -15,6 +15,7 @@
 - [Making S3 Bucket Public with Bucket Policy](#making-s3-bucket-public-with-bucket-policy)
   - [Steps to Allow Public Access](#steps-to-allow-public-access)
   - [Important Considerations](#important-considerations)
+  - [Shared Responsibility Model for S3](#shared-responsibility-model-for-s3)
 
 ## Introduction
 
@@ -144,4 +145,7 @@ Notable use cases:
 - Making a bucket public should be done with caution to prevent unintentional data exposure.
 - Always verify the impact of public access settings and policies.
 
+## Shared Responsibility Model for S3
+
+![Shared Responsibility](<../../readme-images/S3/shared respons.jpeg>)
 
