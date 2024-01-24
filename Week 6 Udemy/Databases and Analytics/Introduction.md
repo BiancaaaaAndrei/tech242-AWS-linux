@@ -2,7 +2,7 @@
 - [Relational Databases](#relational-databases)
 - [NoSQL Databases](#nosql-databases)
 - [AWS Managed Databases](#aws-managed-databases)
-- [Types of Databases](#types-of-databases)
+- [Types of Databases and Analytics in AWS](#types-of-databases-and-analytics-in-aws)
 
 # Introduction to Databases
 
@@ -43,6 +43,7 @@
 - AWS takes responsibility for patching the operating system of the underlying instance.
 - Utilizing a managed database on AWS is recommended for its convenience and efficiency in many use cases.
 
-# Types of Databases
+# Types of Databases and Analytics in AWS
+![Summary](../../readme-images/Databases/summary.jpeg)
 
 
